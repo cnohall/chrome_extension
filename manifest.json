@@ -1,0 +1,14 @@
+{
+    
+    "name":"My First Chrome Extension",
+    "version": "1.0",
+    "manifest_version": 1,
+
+    "icons": { "128": "icon128.png" },
+    "description": "This is Chris Nohall's first Chrome Extension",
+
+    "browser_action": {
+        "default_title": "Browser Action Extension",
+        "default_popup": "popup.html"
+    }
+}
